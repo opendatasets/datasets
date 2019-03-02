@@ -4,14 +4,18 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Anton Zemlyansky'
 SITENAME = u'Open Datasets'
+
 SITEURL = ''
+BASEURL = ''
 
 PATH = 'content'
 OUTPUT_PATH = 'docs'
+STATIC_PATHS = (['images'])
 
 TIMEZONE = 'Europe/Paris'
 LOCALE = 'en_US.UTF-8'
 DEFAULT_LANG = u'en'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -66,6 +70,8 @@ TAG_SAVE_AS = 'tag/{slug}/index.html'
 TAGS_SAVE_AS = 'tag/index.html'
 
 DELETE_OUTPUT_DIRECTORY = True
+
+TWITTER_USERNAME = 'opendatasets'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
