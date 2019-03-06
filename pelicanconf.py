@@ -50,7 +50,7 @@ THEME = 'theme'
 DISPLAY_FOOTER = False
 DISPLAY_SUMMARY = True
 ARTICLE_ORDER_BY = 'reversed-date'
-DEFAULT_PAGINATION = True
+DEFAULT_PAGINATION = 10
 
 ARTICLE_URL = '{slug}/'
 ARTICLE_SAVE_AS = '{slug}/index.html'
